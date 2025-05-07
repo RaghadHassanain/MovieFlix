@@ -5,7 +5,7 @@ React · Firebase · TMDB · TailwindCSS
 A feature-rich movie discovery platform with user authentication, built with React and Firebase.  
 Enjoy a modern, responsive design with smooth user experience and full **light/dark mode support**.
 
-🔗 **Live Demo:** https://movie-app-hawra.netlify.app/
+🔗 **Live Demo:** https://raghadmovieflix.netlify.app/
 
 ---
 
