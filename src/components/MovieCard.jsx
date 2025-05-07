@@ -18,10 +18,14 @@ const MovieCard = ({ movie }) => {
   return (
     <Link to={`/movie/${id}`} className="group">
       <div className="movie group">
-        <img src={imageUrl} alt={title} />
+        <img
+          src={imageUrl}
+          alt={title}
+          className="h-[450px] w-full object-cover rounded-t"
+        />
 
         <div className="movie-info">
-          <h3 className="font-semibold">{title}</h3>
+          <h3 className="font-semibold truncate w-[200px]">{title}</h3>
           <span className="flex items-center gap-1">
             <Star className="h-4 w-4 fill-yellow-400 text-yellow-400" />
             {vote_average?.toFixed(1) || 'N/A'}
@@ -29,13 +33,13 @@ const MovieCard = ({ movie }) => {
         </div>
 
         <div className="movie-over">
-          <div>
-            <h2 className="font-bold mb-2">{title}</h2>
-            <p className="text-sm leading-snug">
-              {overview?.slice(0, 150) || "No overview available..."}
+          <div className="text-center">
+            <h2 className="text-lg font-bold mb-2">{title}</h2>
+            <p className="text-sm leading-snug mb-3">
+              {overview ? overview.slice(0, 150) + '...' : 'No overview available'}
             </p>
-            <div className="mt-3 text-xs text-gray-600 dark:text-gray-300">
-              Release Year: {release_date?.split('-')[0] || 'N/A'}
+            <div className="text-xs text-gray-600 dark:text-gray-300">
+              Year: {release_date?.split('-')[0] || 'N/A'}
             </div>
           </div>
         </div>

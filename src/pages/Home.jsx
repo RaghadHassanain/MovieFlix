@@ -12,9 +12,9 @@ const Home = () => {
       try {
         const data = await getTrendingMovies();
         setMovies(data.results);
-        setLoading(false);
       } catch (err) {
-        setError('Failed to fetch movies');
+        setError('Failed to fetch movies. Please try again.');
+      } finally {
         setLoading(false);
       }
     };
@@ -24,8 +24,9 @@ const Home = () => {
 
   if (loading) {
     return (
-      <div className="flex min-h-screen items-center justify-center">
-        <div className="h-8 w-8 animate-spin rounded-full border-4 border-blue-500 border-t-transparent"></div>
+      <div className="flex flex-col min-h-screen items-center justify-center text-gray-600 dark:text-gray-300">
+        <div className="h-8 w-8 mb-4 animate-spin rounded-full border-4 border-red-main border-t-transparent"></div>
+        <p>Loading movies...</p>
       </div>
     );
   }
@@ -41,7 +42,8 @@ const Home = () => {
   return (
     <div className="container mx-auto px-4 py-8">
       <h1 className="mb-8 text-3xl font-bold text-gray-900 dark:text-white">Trending Movies</h1>
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+
+      <div className="flex flex-wrap justify-center gap-6">
         {movies.map((movie) => (
           <MovieCard key={movie.id} movie={movie} />
         ))}
