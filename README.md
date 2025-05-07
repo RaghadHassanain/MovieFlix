@@ -1,5 +1,17 @@
-Try the live demo: https://raghadmovieflix.netlify.app/ 
-<img width="1710" alt="Screenshot 1446-11-09 at 9 53 17 AM" src="https://github.com/user-attachments/assets/2197f3c0-e4ea-415b-aaf0-fc78c81a1d67" />
+## MovieFlix - React + Tailwind 🎬 
+Explore trending movies, view details, and enjoy a modern responsive design built with React, Tailwind CSS, and Firebase Authentication.
+
+## 🔗 Live Demo: https://your-deploy-link.vercel.app
+
+## 🚀 Features
+- 🎥 Browse trending movies from TMDB API
+- 📄 View movie details, posters, ratings, and overviews
+- 🔎 Search movies (requires login)
+- 🔐 Login/Register with Firebase + Google Auth
+- 🌓 Supports **Light & Dark Mode** (switchable, saved locally)
+- 📱 Fully responsive design using Tailwind CSS
+  
+<img width="1710" alt="Screenshot 1446-11-09 at 10 23 09 AM" src="https://github.com/user-attachments/assets/755e42da-f205-44e6-8889-68b14458303b" />
 <img width="1710" alt="Screenshot 1446-11-09 at 9 53 25 AM" src="https://github.com/user-attachments/assets/b0510ce2-3705-4a80-9073-9bd702e06312" />
 <img width="1710" alt="Screenshot 1446-11-09 at 9 53 33 AM" src="https://github.com/user-attachments/assets/fe84c933-9d23-4f72-a1c0-f82c47c8f979" />
 <img width="1710" alt="Screenshot 1446-11-09 at 9 53 42 AM" src="https://github.com/user-attachments/assets/f4c5c6aa-005b-43d9-bc06-140716884838" />
