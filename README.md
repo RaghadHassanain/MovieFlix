@@ -1,3 +1,4 @@
+Try the live demo: https://raghadmovieflix.netlify.app/ 
 <img width="1710" alt="Screenshot 1446-11-09 at 9 53 17 AM" src="https://github.com/user-attachments/assets/2197f3c0-e4ea-415b-aaf0-fc78c81a1d67" />
 <img width="1710" alt="Screenshot 1446-11-09 at 9 53 25 AM" src="https://github.com/user-attachments/assets/b0510ce2-3705-4a80-9073-9bd702e06312" />
 <img width="1710" alt="Screenshot 1446-11-09 at 9 53 33 AM" src="https://github.com/user-attachments/assets/fe84c933-9d23-4f72-a1c0-f82c47c8f979" />
